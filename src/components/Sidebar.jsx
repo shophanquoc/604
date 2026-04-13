@@ -83,7 +83,7 @@ console.log("setDark:", setDark);
             </ListItemButton>
           </ListItem>
         </List>
-        <List>
+        {/* <List>
 
           <ListItem disablePadding>
             <ListItemButton
@@ -95,7 +95,7 @@ console.log("setDark:", setDark);
               {dark ? <LightModeIcon /> : <DarkModeIcon />}
             </ListItemButton>
           </ListItem>
-        </List>
+        </List> */}
       </div>
     </Drawer>
   );
