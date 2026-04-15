@@ -11,15 +11,14 @@ import { useNavigate } from "react-router-dom";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
 
-export default function Sidebar({ open, onClose, onLogin, dark, setDark }) {
+export default function Sidebar({ open, onClose, onLogin }) {
   const navigate = useNavigate();
 
   const handleNavigate = (path) => {
     navigate(path);
     onClose(); // đóng sidebar sau khi click
   };
-console.log("setDark:", setDark);
-  return (
+   return (
     <Drawer anchor="left" open={open} onClose={onClose}>
       <div style={{ width: 260 }}>
 
