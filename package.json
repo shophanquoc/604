@@ -14,7 +14,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.9",
     "@mui/material": "^7.3.9",
-    "@supabase/supabase-js": "^2.103.1",
+    "@supabase/supabase-js": "^2.103.2",
     "@tiptap/extension-image": "^3.22.3",
     "@tiptap/extension-placeholder": "^3.22.3",
     "@tiptap/react": "^3.22.3",
